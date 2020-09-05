@@ -1,6 +1,10 @@
 package com.alice.afroapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -27,4 +31,49 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.home_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+        switch (item.getItemId()){
+            case R.id.action_profile:
+                Viewprofile();
+                return true;
+            case R.id.action_post:
+                Post();
+                Toast.makeText(this,"Post a question",Toast.LENGTH_LONG).show();
+                return true;
+
+            default: return super.onOptionsItemSelected(item);
+        }
+    }
+
+    public void Viewlist(MenuItem item) {
+        Intent intent= new Intent(MainActivity.this,Listquestions.class);
+        startActivity(intent);
+        Toast.makeText(this,"Questions list.",Toast.LENGTH_LONG).show();
+
+    }
+
+    public void Viecomments(MenuItem item) {
+        Intent intent= new Intent(MainActivity.this,Listcomments.class);
+        startActivity(intent);
+        Toast.makeText(this,"Comments list.",Toast.LENGTH_LONG).show();
+    }
+
+    public void Post(){
+        Intent intent= new Intent(MainActivity.this,Post.class);
+        startActivity(intent);
+    }
+
+    public void Viewprofile(){
+        Intent intent= new Intent(MainActivity.this,Profile.class);
+        startActivity(intent);
+    }
 }

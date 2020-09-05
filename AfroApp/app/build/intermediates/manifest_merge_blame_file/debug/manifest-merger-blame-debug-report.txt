@@ -18,7 +18,7 @@
 12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\2539f5d0d1a930831dc1c0bbcd3ac30d\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
 13
 14    <application
-14-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:5:5-21:19
+14-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:5:5-31:19
 15        android:allowBackup="true"
 15-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:6:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,60 +35,82 @@
 22        android:testOnly="true"
 23        android:theme="@style/AppTheme" >
 23-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:11:9-40
-24        <activity
-24-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:12:9-20:20
-25            android:name="com.alice.afroapp.MainActivity"
-25-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:13:13-41
-26            android:label="@string/app_name" >
-26-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:14:13-45
-27            <intent-filter>
-27-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:15:13-19:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:16:17-69
-28-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:16:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:18:17-77
-30-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:18:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-34            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-34-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-35            android:exported="false"
-35-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-36            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-36-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-37
-38        <provider
-38-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-39            android:name="com.google.firebase.provider.FirebaseInitProvider"
-39-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-40            android:authorities="com.alice.afroapp.firebaseinitprovider"
-40-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-41            android:exported="false"
-41-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-42            android:initOrder="100" />
-42-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-43
-44        <meta-data
-44-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-45            android:name="com.google.android.gms.version"
-45-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-46            android:value="@integer/google_play_services_version" />
-46-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+24        <activity android:name="com.alice.afroapp.Profile" />
+24-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:12:9-54
+24-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:12:19-42
+25        <activity android:name="com.alice.afroapp.Post" />
+25-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:13:9-42
+25-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:13:19-39
+26        <activity
+26-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:14:9-17:59
+27            android:name="com.alice.afroapp.Listcomments"
+27-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:15:13-41
+28            android:label="@string/title_activity_listcomments"
+28-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:16:13-64
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:17:13-56
+30        <activity
+30-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:18:9-21:59
+31            android:name="com.alice.afroapp.Listquestions"
+31-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:19:13-42
+32            android:label="@string/title_activity_listquestions"
+32-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:20:13-65
+33            android:theme="@style/AppTheme.NoActionBar" />
+33-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:21:13-56
+34        <activity
+34-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:22:9-30:20
+35            android:name="com.alice.afroapp.MainActivity"
+35-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:23:13-41
+36            android:label="@string/app_name" >
+36-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:24:13-45
+37            <intent-filter>
+37-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:25:13-29:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:26:17-69
+38-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:28:17-77
+40-->C:\Users\Alice\AndroidStudioProjects\AfroApp\New\Team-207-frontend\AfroApp\app\src\main\AndroidManifest.xml:28:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\802cff68635c75a444baa6581a43dd6a\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 47
 48        <provider
-48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-50            android:authorities="com.alice.afroapp.lifecycle-process"
-50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+48-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+49            android:name="com.google.firebase.provider.FirebaseInitProvider"
+49-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+50            android:authorities="com.alice.afroapp.firebaseinitprovider"
+50-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 51            android:exported="false"
-51-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-52            android:multiprocess="true" />
-52-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-53    </application>
-54
-55</manifest>
+51-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+52            android:initOrder="100" />
+52-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\e81ab2c8e9095470c709a2d40f4b7c31\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\847ed1f530974668c36b8ace3e5db8b8\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+57
+58        <provider
+58-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+59            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+60            android:authorities="com.alice.afroapp.lifecycle-process"
+60-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+61            android:exported="false"
+61-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+62            android:multiprocess="true" />
+62-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Alice\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+63    </application>
+64
+65</manifest>
