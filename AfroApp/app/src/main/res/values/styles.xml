@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:AfroApp/app/src/main/res/values/styles.xml
 <resources>
 
     <!-- Base application theme. -->
@@ -18,3 +19,20 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
+========
+<resources>
+
+    <!-- Base application theme. -->
+<<<<<<< HEAD
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+=======
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+>>>>>>> 918552c84c687c401ae552d302c418fa59192c03
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
+>>>>>>>> 615f6b9d117cb2980120a0c0f7a7e16916702908:app/src/main/res/values/styles.xml
