@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">SampleProfileUi</string>
     <string name="ui_ux_designer">UI/UX Designer</string>
     <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
@@ -7,4 +8,10 @@
     <string name="skills">Skills</string>
 
 
+=======
+    <string name="app_name">AfrodDevMeet</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+>>>>>>> 918552c84c687c401ae552d302c418fa59192c03
 </resources>

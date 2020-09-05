@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SampleProfileUi
 
 Profile Ui For Android Material Design XML, Moder Look
@@ -37,3 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * [Join Our Facebook Group](https://www.facebook.com/groups/519517995532897/) - I share a lot of value in it
 * [Theindianappguy Chatbot ](https://m.me/111238193612220?ref=w7628342) - Never miss any updates of the codes i share, Make sure you are already logged in to facebook. 
+=======
+# Team-207-frontend
+>>>>>>> 918552c84c687c401ae552d302c418fa59192c03

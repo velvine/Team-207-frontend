@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     package="com.tanuivelvine.profileui">
+=======
+    package="com.alice.afroddevmeet">
+>>>>>>> 918552c84c687c401ae552d302c418fa59192c03
 
     <application
         android:allowBackup="true"
@@ -9,9 +13,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity android:name=".ProfileActivity">
+=======
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+>>>>>>> 918552c84c687c401ae552d302c418fa59192c03
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
